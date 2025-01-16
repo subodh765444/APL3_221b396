@@ -1,0 +1,26 @@
+class Juet{
+    public String name;
+    public int age;
+    
+    
+    public void set(String name,int age){
+        this.age = age;
+        this.name= name;
+        
+    }
+    public void get(){
+        System.out.println("The name is : " + name);
+        System.out.println("The age is : " + age);
+    }
+}
+
+public class Main{
+    
+
+public static void main (String[] args) {
+    Juet ob = new Juet();
+    ob.set("Subodh", 20);
+    ob.get();
+}
+
+}
